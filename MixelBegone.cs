@@ -10,8 +10,6 @@ namespace MixelBegone
 	class MixelBegone : Mod
 	{
         internal static MixelBegone instance;
-        internal UserInterface UserInterface;
-        public static IDictionary<string, Texture2D> Textures = null;
 
         public MixelBegone()
 		{
@@ -27,14 +25,18 @@ namespace MixelBegone
 
         public override void Load()
         {
-            Textures = (IDictionary<string, Texture2D>)typeof(Mod).GetField("textures", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(this);
             instance = this;
 
             if (!Main.dedServ)
             {
-                UserInterface = new UserInterface();
                 Main.itemTexture[3460] = GetTexture("Resprites/Luminite");
+                Main.itemTexture[551] = GetTexture("Resprites/HallowedPlate");
             }
+        }
+
+        public override void Unload()
+        {
+            instance = null;
         }
     }
 }
