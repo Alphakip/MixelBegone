@@ -1,1 +1,13 @@
-Literally all this mod does is remove those stupid mixels on luminite & Hallowed Platemail. I'll hapilly remove another mixel if people let me know what sprites have them.
+Literally all this mod does is remove those stupid mixels on a couple items. I'll hapilly remove another mixel if people let me know what sprites have them.
+
+Current items fixed by Mixel Begone:
+
+1. Luminite Ore
+2. Hallowed Platemail
+3. Crystal Serpent
+
+Version 1.2 - Fixed the Crystal Serpent mixel on the bottom of it's tail.
+
+Version 1.1 - Fixed the Hallowed Platemail mixel under the shoulder plate.
+
+Version 1.0 - Fixed the Luminite mixel on the right side of the sprite.
