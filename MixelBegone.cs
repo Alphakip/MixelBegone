@@ -31,6 +31,7 @@ namespace MixelBegone
             {
                 Main.itemTexture[3460] = GetTexture("Resprites/Luminite");
                 Main.itemTexture[551] = GetTexture("Resprites/HallowedPlate");
+                Main.itemTexture[3209] = GetTexture("Resprites/CrystalSerpent");
             }
         }
 
